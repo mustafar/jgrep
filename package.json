@@ -20,7 +20,6 @@
       "url": "https://github.com/mustafar/jgrep/blob/master/LICENSE-MIT"
     }
   ],
-  "main": "lib/jgrep",
   "engines": {
     "node": ">= 0.8.0"
   },
@@ -28,8 +27,8 @@
     "test": "grunt nodeunit"
   },
   "dependencies": {
-    "fs": "*",
-    "node-dir": ">= 0.1.0"
+    "node-dir": ">= 0.1.0",
+    "jargvy": ">= 0.1.5"
   },
   "devDependencies": {
     "grunt-contrib-jshint": "~0.6.4",
@@ -37,8 +36,9 @@
     "grunt-contrib-watch": "~0.5.3",
     "grunt": "~0.4.2"
   },
+  "main": "./lib/jgrep",
   "bin": {
-    "jgrep": "lib/jgrep.js"
+    "jgrep": "./lib/jgrep.js"
   },
   "keywords": []
 }
