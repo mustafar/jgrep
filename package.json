@@ -1,7 +1,7 @@
 {
   "name": "jgrep",
   "description": "Recursive grep.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://github.com/mustafar/jgrep",
   "author": "Mustafa Rizvi (mustafarizvi.com)",
   "repository": {
@@ -37,6 +37,13 @@
   "bin": {
     "jgrep": "./lib/jgrep.js"
   },
-  "keywords": [],
+  "keywords": [
+      "grep",
+      "recursive search",
+      "text",
+      "text search",
+      "xargs grep",
+      "search"
+    ],
   "license": "MIT"
 }

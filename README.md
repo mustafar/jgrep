@@ -5,22 +5,22 @@ Recursive grep.
 ## Getting Started
 Install the module with: `npm install jgrep`
 
-```javascript
-var jgrep = require('jgrep');
-jgrep.awesome(); // "awesome"
+## Examples
+
+Search for something starting from current directory.
+```unix
+$ jgrep waldo
 ```
 
-## Documentation
-_(Coming soon)_
+Case insensitive search starting from Foo's home directory.
+```unix
+$ jgrep waldo -p /Users/foo --nocase
+```
 
-## Examples
-_(Coming soon)_
-
-## Contributing
-In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com/).
-
-## Release History
-_(Nothing yet)_
+Search for all terms (contained in a file) in files with specified extensions.
+```unix
+$ jgrep /Users/foo/terms.txt -p /Users/foo -e js,.json
+```
 
 ## License
 Copyright (c) 2014 Mustafa Rizvi  
