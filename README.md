@@ -12,6 +12,11 @@ Search for something starting from current directory.
 $ jgrep waldo
 ```
 
+Search for something only in current directory.
+```unix
+$ jgrep waldo --norecurse
+```
+
 Case insensitive search starting from Foo's home directory.
 ```unix
 $ jgrep waldo -p /Users/foo --nocase
