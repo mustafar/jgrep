@@ -17,6 +17,16 @@ Search for something only in current directory.
 $ jgrep waldo --norecurse
 ```
 
+Search for something including even hidden dirs (eg: .git, .svn).
+```unix
+$ jgrep waldo --hidden
+```
+
+Search for something excluding some dirs.
+```unix
+$ jgrep waldo -i node_modules,logs
+```
+
 Case insensitive search starting from Foo's home directory.
 ```unix
 $ jgrep waldo -p /Users/foo --nocase
