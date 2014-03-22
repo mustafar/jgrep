@@ -1,7 +1,7 @@
 {
   "name": "jgrep",
   "description": "Recursive grep.",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "homepage": "https://github.com/mustafar/jgrep",
   "author": "Mustafa Rizvi (mustafarizvi.com)",
   "repository": {
