@@ -1,7 +1,7 @@
 {
   "name": "jgrep",
   "description": "Recursive grep.",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "homepage": "https://github.com/mustafar/jgrep",
   "author": "Mustafa Rizvi (mustafarizvi.com)",
   "repository": {
@@ -25,7 +25,7 @@
   },
   "dependencies": {
     "node-dir": ">= 0.1.0",
-    "jargvy": ">= 0.1.5"
+    "jargvy": ">= 1.0.2"
   },
   "devDependencies": {
     "grunt-contrib-jshint": "~0.6.4",
